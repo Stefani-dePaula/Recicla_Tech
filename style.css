@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #dad621;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  height: 15vh;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+}
+
+h1 {
+  border: solid red;
+}
+
+nav {
+  border: solid rgb(61, 185, 61);
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+a {
+  -webkit-text-decoration: nome;
+          text-decoration: nome;
+  font-size: 1.5rem;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
