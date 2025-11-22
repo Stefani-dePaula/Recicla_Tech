@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recicla Tech</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
     
 <header>
-    <div>
-    <img src="./assets/logo recicla.png" alt="logo da pagina recicla tech">
+
+    <div class="caixalogo">
+        <!--colocar o logo do recicla pequeno-->
+    <img src="./assets/Logo reciclagem P.png" alt="logo da pagina recicla tech">
     <h1>Recicla Tech</h1>
    
      </div>
@@ -19,7 +25,7 @@
         <a href="#">Como funciona</a>
         <a href="#">Doar</a>
         <a href="#">Adquirir</a>
-        <a href="#">Começar Agora</a>
+        <a href="#" class="btn-comecar">Começar Agora</a>
         
     </nav>
 
@@ -28,19 +34,61 @@
 <main>
 
     <section class="primeirasection">
-        <section>
-            <h2>De uma segunda vida aos seus eletrônicos</h2>
+
+        <div class="conteudo-texto">
+            <h2>Dê uma segunda vida aos seus eletrônicos!</h2>
+
             <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples, gratuito e sustentável!</p>
 
-            <div class="boxBntsPrimeirasection"></div>
-            <button class="btnVerde"> Quero doar </button>
-                    <button class="btnBranco">Quero Adquirir </button>">
-                    </section>
+            <div class="boxBtnPrimeirasection">
+
+            <button class="btnverde"> Quero doar <img src="./assets/presentinho.png" alt="imagem de presente"></button>
+
+            <button class="btnBranco">Quero Adquirir <img src="./assets/coração.png"></button>
+
+            </div>
+            
+        </div>
+
+        <div>
+              <!-- A imagem do Logo Grande vai aqui-->
+            <img class="logogrande" src="./assets/logo recicla.png" alt="Logo do Recicla tech grande"  />
+        </div>
+
+       
+
     </section>
 
+             
+
+    <section class="dadosnumericos">
+        <div>
+            <h2>2.5K+</h2>
+            <p>Eletrônicos doados</p>
+        </div>
+
+         <div>
+            <h2>1.8K+</h2>
+            <p>Familias Beneficiadas</p>
+        </div>
+
+         <div>
+            <h2>95%</h2>
+            <p>Satisfação do Usuários</p>
+        </div>
+
+    </section>
 
 <section class="produtosDisponíveis">
 
+    <div class="titulocards">
+     <h2>Produtos disponiveis</h2>
+     <p>Categorias mais populares</p>
+    </div>
+    
+    
+<div class="produtos"> 
+   
     <article>
         <img src="./assets/fone.jpg" alt="fone de ouvido JBL">
         <h3>Fone</h3>
@@ -65,6 +113,8 @@
         <button>Quero Adiquirir</button>
     
     </article>
+
+</div>
 
 </section>
 
