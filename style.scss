@@ -238,3 +238,96 @@ p{
             margin-right: 7px;
         }
     }
+
+
+    //responsivo
+
+    //smartphone mx: 500px
+
+    @media(max-width: 500px){
+       
+        header{
+            display: flex;
+            flex-direction: column;
+            height: 20vh;
+        }
+        ;caixalogo{
+            border: solid
+            width: 70%
+        }
+
+        nav{
+            border:solid
+            width: 100%
+            a{
+                font-size: 0.8rem;
+            
+            }
+
+            .btnverdeheader{
+                font-size: 0.8rem;
+            }
+        
+        }
+
+    }
+
+        //------primeira section------
+
+        .primeirasection{
+            background-color: violet;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 80vh;
+
+        section{
+
+        height: 80vh;
+
+            h2{
+                font-size: 1.5rem;
+                width: 100%;
+            }
+
+            p{
+                width: 100%;
+            }
+
+        }
+
+        .boxBtnsPrimeirasection{
+            width: 100%;
+
+            button{
+                padding: 20px; 30px;
+            }
+        }
+
+        img{
+            width: 50%;
+        }
+
+        }
+
+
+
+        //section produtos disponíveis
+
+        .produtosDisponíveis{
+            display: flex; //não teria necessidade de usar. Ele já foi ativado na inha 87
+            flex-direction: column;
+            background-color: pink;  
+            justify-content: space-around;  
+
+             article{
+            width: 60%;
+
+            button{
+                font-size: 1rem;
+                width: 70%f;
+                font-weight: 400;
+            }
+        }
+
+        }
